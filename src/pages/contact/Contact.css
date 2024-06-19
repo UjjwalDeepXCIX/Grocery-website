@@ -1,0 +1,26 @@
+.contact-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #61B97F;
+    color: white;
+    font-size: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon .icon{
+    width: 35px;
+    height: 35px;
+}
+
+.contact-details a{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.contact-details p{
+    color: gray;
+}

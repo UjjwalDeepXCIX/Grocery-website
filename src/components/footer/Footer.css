@@ -1,0 +1,43 @@
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer li{
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.footer-icons{
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    color: #61B97F;
+}
+
+.footer a{
+    color: #777777;
+}
+
+.footer a:hover{
+    color: #61B97F;
+}
+
+.fixed-button{
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #61B97F;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.3);
+}
+
+.fixed-button .icon{
+    height: 30px;
+    width: 30px;
+}

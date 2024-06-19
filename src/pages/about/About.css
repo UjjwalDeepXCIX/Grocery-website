@@ -1,0 +1,11 @@
+ol.breadcrumb{
+margin-bottom: 0;
+}
+
+.w-90{
+    width: 90% !important;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #61B97F !important;
+}

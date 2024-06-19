@@ -1,0 +1,14 @@
+:root{
+  --theme-color: #61B97F;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  background-color:white;
+}
+
+a{
+  text-decoration: none !important;
+}

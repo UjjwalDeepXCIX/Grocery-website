@@ -1,0 +1,56 @@
+.section-heading {
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .section-heading::after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #BCE3C9;
+  }
+  
+  .main-section-heading {
+    font-size: 48px;
+    color: #253D4E;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  
+  
+  /* Hero Image */
+  .hero-image{
+    height: 330px;
+    background-image: url('https://nest-frontend-v6.netlify.app/assets/imgs/page/home-6-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .search{
+    max-width: 520px;
+  }
+  
+  .search-list{
+    display: inline-block;
+  padding: 0;
+  list-style: none;
+  }
+  
+  .search-list li{
+    display: inline;
+    margin: 0 .5rem;
+  }
+  
+  .search-list a{
+    color: black;
+  }

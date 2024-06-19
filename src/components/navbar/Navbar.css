@@ -1,0 +1,163 @@
+.navbar-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-logo{
+    /* margin-right: 70px; */
+}
+
+.main-search-bar{
+    border: 2px solid #BCE3C9;
+    border-radius: 4px;
+    max-width: 700px;
+    background-color: #fff;
+}
+
+.main-search-bar select, input{
+    border: 0;
+    font-size: 0.9rem;
+    padding: 1rem .9rem;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+.main-search-bar span{
+    margin: 0 0.5rem;
+    font-weight: 400;
+    color: #7e7e7e;
+}
+
+.main-search-bar input{
+    background-image: url('../../assets/images/search.png');
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    width: 500px;
+    background-position: center right;
+}
+
+.main-search-bar input:focus, .main-search-bar select:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.navbar-right-menu .dropdown-toggle{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.navbar-wrap .dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown-toggle:hover{
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-toggle:active{
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-right-menu .btn.show{
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-right-menu .dropdown-item{
+    font-size: 0.8rem;
+    padding: 0.4rem 2.5rem .4rem 1rem;
+}
+
+.navbar-right-menu .css-i4bv87-MuiSvgIcon-root{
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+}
+
+.navbar-right-menu .dropdown-item:hover{
+    background-color: transparent !important;
+    color: #61B97F;
+}
+
+#profileToggleIcon{
+    width: 1.9rem;
+    height: 1.9rem;
+}
+
+#wishlist-menu{
+    width: 400px;
+    padding: 1.3rem 1rem;
+}
+
+.support{
+    color: white;
+}
+
+.support p{
+    font-size: 0.9rem;
+}
+
+.support h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.support .icon{
+    font-size: 3rem;
+}
+
+.trending .dropdown-toggle, .trending .dropdown-toggle:hover{
+    background: #F6BF3F;
+    border-color: #F6BF3F;
+}
+
+.trending .dropdown-menu{
+    width: 500px;
+}
+
+.trending-menu{
+    padding: 9px 18px;
+    border: 1px solid #F2F3F4;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #40424E;
+}
+
+.trending .dropdown-menu{
+    top: 90% !important;
+    padding: 30px;
+    inset: auto;
+}
+
+.mega-menu-dropdown .dropdown-menu{
+    width: 90vw;
+transform: translate3d(-40%, 20%, 0px) !important;
+padding: 30px;
+}
+
+.mega-menu-dropdown .dropdown-toggle, .mega-menu-dropdown .dropdown-toggle:hover{
+    background: transparent  !important;
+    border: none;
+}
+
+.menu-title{
+    color: #61B97F;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.mega-menu-items{
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.mega-menu-items li{
+    margin: 1rem 0;
+}

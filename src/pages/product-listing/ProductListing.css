@@ -1,0 +1,114 @@
+.page-header {
+    background-image: url('https://nest-frontend-v6.netlify.app/assets/imgs/blog/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    padding: 70px 80px;
+}
+
+.page-header ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.page-header .category-tags {
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    font-size: .9rem;
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+}
+
+.page-header .close-icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.filter-card-title {
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.filter-card-title::after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #BCE3C9;
+}
+
+.filter-card ul {
+    display: block;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+.filter-card ul :hover{
+    background-color: #3ba7b7;
+}
+
+.filter-card li {
+    font-size: 16px;
+    padding: .5rem 1rem;
+    border: 2px solid #ececec;
+    background-color: #ececec;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: border-color 0.3s; /* Add transition for smooth border change */
+}
+
+
+.filter-card li.selected {
+    border-color:  hsl(140, 100%, 50%); /* Change to desired border color */
+}
+
+.count {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #BCE3C9;
+}
+
+.filter-card .icon {
+    height: 25px;
+    margin-right: 7px;
+}
+
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: .25rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #6c757d;
+    content: ">";
+}
+
+.breadcrumb-item a {
+    color: #3ba7b7 !important;
+}

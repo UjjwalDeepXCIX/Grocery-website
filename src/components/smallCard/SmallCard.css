@@ -1,0 +1,41 @@
+.small-card{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.small-card h6 a{
+    color: #253D4E;
+    font-size: 16px;
+}
+
+.small-card h6 a:hover{
+    color: #61B97F;
+}
+
+.small-card .rating{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #B6B6B6;
+}
+
+.price .mrp{
+    font-size: 14px;
+    color: #adadad;
+    margin: 0 0 0 7px;
+    text-decoration: line-through;
+}
+
+.price .rate{
+    color: #3BB77E;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+.small-card img{
+    border-radius: 10px;
+}
